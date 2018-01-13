@@ -39,11 +39,11 @@ exports.model = {
         logger: msg => think.logger.info(msg)
     },
     mongo: {
-        host: '106.15.193.97',
-        port: 9000,
-        user: 'chatRoot',
-        password: '123456',
-        database: 'chat',
+        host: '',
+        port: '',
+        user: '',
+        password: '',
+        database: '',
         prefix: '',
     }
 };
